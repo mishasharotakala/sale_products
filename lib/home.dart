@@ -1,5 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:sale_products/app_ui/activity_screen.dart';
+import 'package:sale_products/app_ui/screens_route.dart';
 import 'package:sale_products/cards/card0.dart';
 // 1
 class Home extends StatefulWidget {
@@ -21,7 +23,9 @@ class Home extends StatefulWidget {
       //Container(color: Colors.blueGrey,),
       // ignore: todo
       //TODO: Replace with Card2
-      Container(color: Colors.transparent,),
+      const ScreensRoute(),
+      //const ActivitiesScreen(),
+      //Container(color: Colors.transparent,),
       // ignore: todo
       //TODO: Replace with Card3
       Container(color: Colors.teal,),
