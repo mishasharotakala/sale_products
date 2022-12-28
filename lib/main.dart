@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:sale_products/app_ui/screens_route.dart';
 import 'package:sale_products/pages/main_page.dart';
 import 'app_theme.dart';
 
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'My App',
       theme: theme,
+      //home: const ScreensRoute(),
       home: const MainPage(),
       //home: const Home(),
     );
