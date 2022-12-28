@@ -104,7 +104,7 @@ class _Card2State extends State<Card2> {
                   subtitle: Text("Just Oil"),
                 ),
                 ListTile(
-                  trailing: Text("R170"),
+                  trailing: Text("R300"),
                   title: Text(
                     "Hip & Bum Enlargement Pills",
                     style: TextStyle(
