@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../activity_model.dart';
-
 class ClippedContainer extends StatelessWidget {
   const ClippedContainer({
     Key? key,

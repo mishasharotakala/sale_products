@@ -21,7 +21,7 @@ class ActivityDetailsScreen extends StatelessWidget {
 }
 
 class _ActivityInformation extends StatelessWidget {
-  const _ActivityInformation({super.key, required this.activity});
+  const _ActivityInformation({required this.activity});
 
   final Activity activity;
 
@@ -86,7 +86,7 @@ class _ActivityInformation extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () {}, 
                   style: ElevatedButton.styleFrom(
-                    primary: const Color(0xFF211955),
+                    backgroundColor: const Color(0xFF211955),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
                     ),
