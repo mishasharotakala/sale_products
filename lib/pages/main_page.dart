@@ -16,7 +16,7 @@ class MainPage extends StatelessWidget {
             return const Home();
           }
           else {
-            return AuthPage();
+            return const AuthPage();
           }
         }),
     ),

@@ -11,7 +11,7 @@ class HotelsScreen extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
           SizedBox(height: 50,),
           CustomHeader(title: "Hotels"),
         ],

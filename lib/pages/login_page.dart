@@ -123,7 +123,7 @@ class _LoginPageState extends State<LoginPage> {
                         onTap: () {
                           Navigator.push(context, 
                             MaterialPageRoute(builder: (context) {
-                              return ForgotPasswordPage();
+                              return const ForgotPasswordPage();
                             },),
                           );
                         },

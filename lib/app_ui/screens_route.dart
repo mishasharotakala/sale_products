@@ -34,7 +34,7 @@ class _TravelApp extends StatefulWidget {
   final GlobalKey<NavigatorState> navigator;
   final Widget child;
 
-  const _TravelApp({super.key, required this.navigator, required this.child});
+  const _TravelApp({required this.navigator, required this.child});
 
   @override
   State<_TravelApp> createState() => __TravelAppState();
