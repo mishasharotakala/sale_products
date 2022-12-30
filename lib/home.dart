@@ -2,6 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:sale_products/app_ui/screens_route.dart';
 import 'package:sale_products/cards/card0.dart';
+import 'package:sale_products/dummy_page.dart';
 // 1
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -27,7 +28,8 @@ class Home extends StatefulWidget {
       //Container(color: Colors.transparent,),
       // ignore: todo
       //TODO: Replace with Card3
-      Container(color: Colors.teal,),
+      const DummyPage(), 
+      //Container(color: Colors.teal,),
       // ignore: todo
       //TODO: Replace with Card4
       Container(color: Colors.deepPurple,),
